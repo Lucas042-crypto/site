@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FDF5E6;
+    
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    position: fixed;
+    height: 150px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 16%);
+    background-color: white;
+}
+
+#logo{
+    max-width:300px;
+    max-height:150px;
+    padding-right: 30px;
+    width: auto;
+    height: auto;
+}
+
+nav{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+.menu{
+    list-style: none;
+    margin-bottom: 30px;      
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    
+}
+
+a{
+    text-decoration: none;
+    margin-right: 30px;    
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    display: inline-flex;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: center;
+    white-space: nowrap;
+    min-height: 60px;
+    margin-right: 40PX;
+    padding: 10px;
+    background: var(--grad-orange);
+    border-radius: var(--border-radius);
+    transition: transform 0.3s ease 0s;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    color: var(--text-white);
+
+}
+:root {
+    --max-width: 1160px;
+    --border-radius: 8px;
+    --background: #fff;
+    --background-gray: #f9fbfc;
+    --text-white: #fff;
+    --text-dark: #0e1c34;
+    --text-gray-light: #b1afb9;
+    --text-gray: #6d7278;
+    --progbr-color: #1F95FD;
+    --grad-blue-medium: linear-gradient(225deg,#29678B 0%,#0E1C34 100%);
+    --grad-blue: linear-gradient(225deg,rgb(30,79,108) 0%,rgb(14,28,52) 100%);
+    --grad-blue-light: linear-gradient(29.83deg,#1F95FD 0%,#4FE8E4 100%);
+    --grad-orange: linear-gradient(225deg,#FFAF00 0%,#FE4D1B 48.15%,#E70154 100%);
+    --box-shadow-card: 10px 10px 25px 1px #C0C5CE;
+    --box-shadow-blue: 0 18px 40px 0 rgba(79,232,228,0.5);
+    --box-shadow-orange: 0 18px 40px 0 rgba(252,71,31,0.3);
+    --box-shadow-orange-dark: 0 20px 60px 10px rgba(252,71,31,0.6);
+}
+
+#sobre{
+   padding-top: 215px;
+ }
+
+#cyber{
+   float: right;
+   padding-top: 40px;
+   margin-right: 40px;
+   margin-left: 60px;
+
+}
+
+h1{
+    padding-top: 40px;
+    margin-left: 40px;
+    padding-bottom: 80px;
+}
+
+p{
+    text-align: justify;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-left: 90px;
+    
+}
+
+#habilidades{
+    
+    padding-top: 200px;
+    
+}
+
+h2, h3{
+    text-align: center;
+  
+}
+
+#habilidades img{
+    text-align: center; 
+    max-width:300px;
+    max-height:150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding: 15px;
+       
+}
+
+.skillEmail{
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    
+}
+
+.skillGlpi{
+    display: inline-block;
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.skillScript{
+    display: inline-block;
+    max-width: 300px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.experience{
+    padding: 10px;;
+    text-align: justify;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-left: 90px;
+    
+}
+
+footer{
+    padding: 100px;
+}
+
+input{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+input[type='submit']{
+    color:white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+select{
+     appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+.copy{
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-left: 90px;
+}
